@@ -2,6 +2,7 @@ import { useState, useCallback, useRef } from "react";
 import NavRail from "@/components/NavRail";
 import HeroSection from "@/components/HeroSection";
 import WorkSection from "@/components/WorkSection";
+import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import GridOverlay from "@/components/GridOverlay";
 
