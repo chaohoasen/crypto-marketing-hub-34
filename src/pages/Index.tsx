@@ -19,7 +19,7 @@ const Index = () => {
   }, []);
 
   const handleScroll = useCallback(() => {
-    const sections = ["intro", "work", "contact"];
+    const sections = ["intro", "work", "projects", "contact"];
     const container = containerRef.current;
     if (!container) return;
 
