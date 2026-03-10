@@ -8,6 +8,7 @@ interface NavRailProps {
 const sections = [
   { id: "intro", label: "//INTRO" },
   { id: "work", label: "//WORK" },
+  { id: "projects", label: "//PROJECTS" },
   { id: "contact", label: "//CONTACT" },
 ];
 

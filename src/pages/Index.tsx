@@ -2,6 +2,7 @@ import { useState, useCallback, useRef } from "react";
 import NavRail from "@/components/NavRail";
 import HeroSection from "@/components/HeroSection";
 import WorkSection from "@/components/WorkSection";
+import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import GridOverlay from "@/components/GridOverlay";
 
@@ -18,7 +19,7 @@ const Index = () => {
   }, []);
 
   const handleScroll = useCallback(() => {
-    const sections = ["intro", "work", "contact"];
+    const sections = ["intro", "work", "projects", "contact"];
     const container = containerRef.current;
     if (!container) return;
 
@@ -46,6 +47,7 @@ const Index = () => {
       >
         <HeroSection />
         <WorkSection />
+        <ProjectsSection />
         <ContactSection />
       </div>
     </div>
